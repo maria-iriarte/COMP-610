@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    {"id": "CT", "group": 1},
+    {"id": "T1", "group": 2},
+    {"id": "T2", "group": 3},
+    {"id": "T3", "group": 4},
+    {"id": "T4", "group": 5}  
+  ],
+  "links": [
+    {"source": "CT", "target": "T1", "value": 2},
+    {"source": "CT", "target": "T2", "value": 8},
+    {"source": "CT", "target": "T3", "value": 10},
+    {"source": "CT", "target": "T4", "value": 6},
+    {"source": "T1", "target": "T2", "value": 3},
+    {"source": "T1", "target": "T3", "value": 5},
+	{"source": "T1", "target": "T4", "value": 1},
+    {"source": "T2", "target": "T3", "value": 2},
+    {"source": "T2", "target": "T4", "value": 3}
+  ]
+}
