@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    {"id": "Central_team", "group": 1},
+    {"id": "Team_1", "group": 2},
+    {"id": "Team_2", "group": 3},
+    {"id": "Team_3", "group": 4},
+    {"id": "Team_4", "group": 5}  
+  ],
+  "links": [
+    {"source": "Central_team", "target": "Team_1", "value": 2},
+    {"source": "Central_team", "target": "Team_2", "value": 8},
+    {"source": "Central_team", "target": "Team_3", "value": 10},
+    {"source": "Central_team", "target": "Team_4", "value": 6},
+    {"source": "Team_1", "target": "Team_2", "value": 3},
+    {"source": "Team_1", "target": "Team_3", "value": 5},
+	{"source": "Team_1", "target": "Team_4", "value": 1},
+    {"source": "Team_2", "target": "Team_3", "value": 2},
+    {"source": "Team_3", "target": "Team_4", "value": 3}
+  ]
+}
